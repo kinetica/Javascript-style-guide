@@ -1413,13 +1413,25 @@
 
 ## Testing
 
-  - **Yup.**
+  - We prefer to use [QUnit](http://qunitjs.com/) for unit testing.
+  - Create a different test for every different possible result
 
     ```javascript
-    function() {
-      return true;
-    }
-    ```
+	// bad
+	test("calculador", function(){
+		equal(3, calculador.add(2,1);
+		equal(1, calculador.substract(2,1);
+	});
+	
+	// good
+	module("calculador");
+	test("add", function(){
+		equal(3, calculador.add(2,1);
+	});
+	test("substact", function(){
+		equal(3, calculador.substract(2,1);
+	});
+	```
 
 **[⬆ back to top](#table-of-contents)**
 
