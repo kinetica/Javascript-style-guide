@@ -1,6 +1,6 @@
 # Kinetica Solutions JavaScript Style Guide() {
 
-*A mostly reasonable approach to JavaScript, orignal from Airbnb can be found [here](https://github.com/airbnb/javascript)*
+*A mostly reasonable approach to JavaScript, original from Airbnb can be found [here](https://github.com/airbnb/javascript)*
 
 
 ## Table of Contents
